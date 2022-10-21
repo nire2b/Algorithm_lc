@@ -1,4 +1,4 @@
-public class day2_mergeTwoLists_21 {
+public class day002_mergeTwoLists_21 {
     class ListNode{
         int val;
         ListNode next;

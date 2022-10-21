@@ -1,4 +1,4 @@
-public class day1_addTwoNumbers_02 {
+public class day001_addTwoNumbers_02 {
     class ListNode{
         int val;
         ListNode next;
