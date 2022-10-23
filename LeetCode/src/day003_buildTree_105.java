@@ -26,7 +26,9 @@ public class day003_buildTree_105 {
             return head;
         }
         int find = map.get(pre[l1]);
+        //l1+find-l2可以理解为，从l1出发，走find-l2个值，是r1
         head.left = build(pre, l1+1, l1+find-l2, in, l2,find-1, map);
+        //l1+find-l2+1可以理解为，从l1出发，走find-l2+1个位置，是新的l1
         head.right = build(pre, l1+find-l2+1, r1, in, find+1, r2,map );
         return head;
     }
